@@ -34,7 +34,7 @@ class NewVisitorTest(StaticLiveServerTestCase):
         self.assertIn(row_text, [row.text for row in rows])
 
     def test_can_start_a_list_and_retrieve_it_later(self):
-        sleeptime = .1
+        sleeptime = 3
         # Edith has heard about a cool new online to-do app. She goes
         # to check out its homepage
         self.browser.get(self.server_url)
