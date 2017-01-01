@@ -10,9 +10,9 @@ Provisioning a new site
 * virtualenv
 
 eg, on Ubuntu:
-	
-	sudo apt-get install nginx git python3 python3-pip
-	sudo pip3 install virtualenv
+    
+    sudo apt-get install nginx git python3 python3-pip
+    sudo pip3 install virtualenv
 
 ## Nginx Virtual Host config
 
@@ -29,8 +29,8 @@ Assume we have a user account at /home/username
 
 /home/username
 └── sites
-	└── SITENAME
-		├── database
-		├── source
-		├── static
-		└── virtualenv
+    └── SITENAME
+        ├── database
+        ├── source
+        ├── static
+        └── virtualenv
